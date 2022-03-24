@@ -1,0 +1,9 @@
+<p>dashboard works!</p>
+<div class="list-thread">
+    <div class="thread" *ngFor="let thread of finalData">
+        <div class="title">{{ thread['title'] }}</div>
+        <div class="info">{{ thread['author'] }}</div>
+        <div class="num_comments">{{ thread['num_comments']}}</div>
+        <div class="parmalink">{{thread['permalink']}}</div>
+    </div>
+</div>
